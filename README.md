@@ -50,3 +50,4 @@ Example: f"{fnt.B}Blue {fnt.c}I am. {fnt.i}Roses {fnt.c}{fnt.b}are {fnt.R}Red{fn
 
 You can find Emoji's in fnt.emojis, I've included a few:
 🧙, 👸, 👵, 👴, 🎅, 👮, 🕵, 👩, 👨, 👩, 🦸, 🧚.
+
