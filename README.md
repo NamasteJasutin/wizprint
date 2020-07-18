@@ -1,12 +1,12 @@
-***wizprint 
-**A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble, with colors, emoji's and memes.
+# wizprint 
+## A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble, with colors, emoji's and memes.
 
 *How to use:
 ```
 # -*- coding: utf-8 -*-
 from wizprint import wprint
 wprint("Hello, world!") 
-'''
+```
 *This will ouput something like this:
 ```
  .://+///:-`   .://+++oo+++++//:-.`-:://////::-
