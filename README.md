@@ -3,7 +3,7 @@ wprint; A Small Gimmick that makes printing tasks to console just a bit more fun
 wprint("Hello, world!") 
 
 
-<code>
+```
  .://+///:-`   .://+++oo+++++//:-.`-:://////::-
  s+++++++++oo+oo+++++++++++++++++oo+++++++++++os. 
  'o˖˖Hello,˖world!˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖oo
@@ -11,12 +11,12 @@ wprint("Hello, world!")
                         +o++o+`   `````     ```
                         -s+.
                            🧙
-</code>
+```
 Standard messages show a small bubble, you can expand this however by adding a signature with the option signed="Pythonuigi"
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
 
 
-<code>
+```
   .://+///:-`  .://+++oo++++//:-.`-:://////::-
    s+++++++++oo+oo++++++++++++++++oo++++++++++os. 
  /s˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖os`
@@ -29,7 +29,7 @@ wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
                         +o++o+`   `````     ```
                         -s+.
                            👸
-</code>
+```
 Try it with:
 from wizprint import wprint, fnt
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
