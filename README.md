@@ -1,13 +1,13 @@
-# wizprint 
-## A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble, with colors, emoji's and memes.
+# 🧙wizprint 
+## A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell your customized message in a bubble, with colors, emoji's and memes.
 
-*How to use:
+### How to use:
 ```
 # -*- coding: utf-8 -*-
 from wizprint import wprint
 wprint("Hello, world!") 
 ```
-*This will ouput something like this:
+**This will ouput something like this:**
 ```
  .://+///:-`   .://+++oo+++++//:-.`-:://////::-
  s+++++++++oo+oo+++++++++++++++++oo+++++++++++os. 
@@ -21,7 +21,7 @@ Standard messages show a small bubble, you can expand this however by adding a s
 ```
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
 ```
-*... will look like this:
+**... will look like this:**
 ```
    .://+///:-`  .://+++oo++++//:-.`-:://////::-
    s+++++++++oo+oo++++++++++++++++oo++++++++++os. 
@@ -37,13 +37,13 @@ wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
                            👸
 ```
 
-*I want to try this, what do I need to do?
+### I want to try this, what do I need to do?
 Download the code from GIT, from a Terminal:
 ```
 git clone https://github.com/NamasteJasutin/wizprint && cd wizprint
 python3 setup.py install
 ```
-Replace with python if that is your default command for Python3.7>.
+Replace python3 with python if that is your default command for a Python3.7> Interpreter.
 Open a Python3.7> Shell and type:
 ```
 from wizprint import wprint, fnt
