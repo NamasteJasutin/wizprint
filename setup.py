@@ -25,7 +25,6 @@ setup(
     ],
     packages=["wizprint"],
     include_package_data=True,
-    install_requires=["random"],
     entry_points={
         "console_scripts": [
             "wizprint=wizprint.__main__:main",

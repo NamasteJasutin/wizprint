@@ -1,6 +1,6 @@
-**wprint; A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble
+wprint; A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble
 
-> wprint("Hello, world!") 
+wprint("Hello, world!") 
 
 
 >
@@ -13,7 +13,7 @@
 >                           🧙
 
 Standard messages show a small bubble, you can expand this however by adding a signature with the option signed="Pythonuigi"
->wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
+wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
 
 
 
@@ -31,13 +31,12 @@ Standard messages show a small bubble, you can expand this however by adding a s
 >                           👸
 
 Try it with:
-> from wizprint import wprint, fnt
-> wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
+from wizprint import wprint, fnt
+wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
 All options:
-> wprint(message="", background=fnt.black, foreground=fnt.B, bgchar='˖', signed="", wiz="w")
+wprint(message="", background=fnt.black, foreground=fnt.B, bgchar='˖', signed="", wiz="w")
 
-> from wizprint import fnt
-For more font coloring options.
+import wizprint.fnt for more font coloring options.
 
 More info on fnt:
 Format console: 
@@ -50,4 +49,3 @@ Example: f"{fnt.B}Blue {fnt.c}I am. {fnt.i}Roses {fnt.c}{fnt.b}are {fnt.R}Red{fn
 
 You can find Emoji's in fnt.emojis, I've included a few:
 🧙, 👸, 👵, 👴, 🎅, 👮, 🕵, 👩, 👨, 👩, 🦸, 🧚.
-
