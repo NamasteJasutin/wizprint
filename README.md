@@ -1,8 +1,13 @@
-wprint; A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble
+***wizprint 
+**A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble, with colors, emoji's and memes.
 
+*How to use:
+```
+# -*- coding: utf-8 -*-
+from wizprint import wprint
 wprint("Hello, world!") 
-
-
+'''
+*This will ouput something like this:
 ```
  .://+///:-`   .://+++oo+++++//:-.`-:://////::-
  s+++++++++oo+oo+++++++++++++++++oo+++++++++++os. 
@@ -12,12 +17,13 @@ wprint("Hello, world!")
                         -s+.
                            🧙
 ```
-Standard messages show a small bubble, you can expand this however by adding a signature with the option signed="Pythonuigi"
-wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
-
-
+Standard messages show a small bubble, you can expand this however by adding a signature with the option signed, for example:
 ```
-  .://+///:-`  .://+++oo++++//:-.`-:://////::-
+wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
+```
+*... will look like this:
+```
+   .://+///:-`  .://+++oo++++//:-.`-:://////::-
    s+++++++++oo+oo++++++++++++++++oo++++++++++os. 
  /s˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖os`
  :s˖˖Hello,˖Pythonario˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖˖os
@@ -30,14 +36,26 @@ wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
                         -s+.
                            👸
 ```
-Try it with:
+
+*I want to try this, what do I need to do?
+Download the code from GIT, from a Terminal:
+```
+git clone https://github.com/NamasteJasutin/wizprint && cd wizprint
+python3 setup.py install
+```
+Replace with python if that is your default command for Python3.7>.
+Open a Python3.7> Shell and type:
+```
 from wizprint import wprint, fnt
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
-All options:
+```
+*All options:
 wprint(message="", background=fnt.black, foreground=fnt.B, bgchar='˖', signed="", wiz="w")
 
-import wizprint.fnt for more font coloring options.
-
+For more font coloring options, use:
+```
+from wizprint import fnt
+```
 More info on fnt:
 Format console: 
 Colors: # For Blue use fnt.B
@@ -47,5 +65,9 @@ Properties: # For bold use fnt.b
 Example: f"{fnt.B}Blue {fnt.c}I am. {fnt.i}Roses {fnt.c}{fnt.b}are {fnt.R}Red{fnt.c}"
             Blue /     Clear /     Italic /      Clear / Bold /      Red /   Clear /
 
-You can find Emoji's in fnt.emojis, I've included a few:
+You can find Emoji's in 
+```
+fnt.emojis
+```
+I've included a few:
 🧙, 👸, 👵, 👴, 🎅, 👮, 🕵, 👩, 👨, 👩, 🦸, 🧚.
