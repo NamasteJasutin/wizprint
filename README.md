@@ -1,6 +1,12 @@
 # 🧙wizprint 
 ## A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell your customized message in a bubble, with colors, emoji's and memes.
 
+### How to install:
+Download from pip:
+```
+python -m pip install wizprint
+```
+
 ### How to use:
 ```
 # -*- coding: utf-8 -*-
