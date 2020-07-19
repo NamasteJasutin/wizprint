@@ -10,8 +10,8 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="wizprint",
-    version="1.0.1",
-    description="wprint; A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble. | fnt; Adds Console Coloring and Emojis for wprint.",
+    version="1.1.0",
+    description="for Python3 + Console: wprint; A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell you your customized message in a bubble. | fnt; Adds Console Coloring and Emojis for wprint.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/NamasteJasutin/wizprint",
@@ -28,7 +28,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "wizprint=wizprint.__main__:main",
+            "wprint=wizprint.console:main",
         ]
     },
 )

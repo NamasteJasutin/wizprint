@@ -78,3 +78,8 @@ Try loading as module ;)
 ```
 python -m wizprint
 ```
+
+For console usage, see:
+```
+wprint -h
+```
