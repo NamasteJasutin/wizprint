@@ -38,14 +38,9 @@ wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
 ```
 
 ### I want to try this, what do I need to do?
-Download the code from GIT, from a Terminal:
 ```
-git clone https://github.com/NamasteJasutin/wizprint && cd wizprint
-python3 setup.py install
-```
-Replace python3 with python if that is your default command for a Python3.7> Interpreter.
-Open a Python3.7> Shell and type:
-```
+pip install wizprint
+
 from wizprint import wprint, fnt
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
 ```
