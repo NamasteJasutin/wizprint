@@ -66,3 +66,9 @@ fnt.emojis
 ```
 I've included a few:
 🧙, 👸, 👵, 👴, 🎅, 👮, 🕵, 👩, 👨, 👩, 🦸, 🧚.
+
+
+Try loading as module ;)
+```
+python -m wizprint
+```
