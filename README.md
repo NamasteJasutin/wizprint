@@ -84,7 +84,7 @@ If your Python3 is in PATH, you can now run:
 ```
 wprint -m "  $(date)" -s "$USERNAME"
 ```
-Fow Windows:
+For Windows:
 ```
 python -m pip install wizprint
 wprint -m "  $(date)" -s "$ENV:USERNAME"
