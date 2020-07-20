@@ -4,7 +4,7 @@
 ### How to install:
 Download from pip:
 ```
-python -m pip install wizprint
+python3 -m pip install wizprint
 ```
 
 ### How to use:
@@ -45,8 +45,9 @@ wprint("Hello, Pythonario", signed="Process Peach", wiz="p")
 
 ### I want to try this, what do I need to do?
 ```
-pip install wizprint
+python3 -m pip install wizprint
 
+python3
 from wizprint import wprint, fnt
 wprint("Hello, Pythonario", signed="Process Peach", wiz="p", background=fnt.Y, foreground=fnt.R)
 ```
@@ -76,10 +77,21 @@ I've included a few:
 
 Try loading as module ;)
 ```
-python -m wizprint
+python3 -m wizprint
 ```
 
-For console usage, see:
+If your Python3 is in PATH, you can now run:
+```
+wprint -m "  $(date)" -s "$USERNAME"
+```
+Fow Windows:
+```
+python -m pip install wizprint
+wprint -m "  $(date)" -s "$ENV:USERNAME"
+```
+This can be handy when running scripts to let messages stand out, but not take up too much space in the console.
+
+More help on wprint, open a terninal and type:
 ```
 wprint -h
 ```
