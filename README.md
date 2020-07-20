@@ -1,5 +1,6 @@
 # 🧙wizprint 
 ## A Small Gimmick that makes printing tasks to console just a bit more fun by introducing a Wizard that will tell your customized message in a bubble, with colors, emoji's and memes.
+## Wanna try it first? Try it in a repl.it: https://repl.it/@NamasteJasutin/PlasticAssuredLines
 
 ### How to install:
 Download from pip:
